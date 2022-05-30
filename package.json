@@ -1,0 +1,23 @@
+{
+  "name": "remote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "json-2-csv": "^3.17.1",
+    "log4js": "^6.3.0",
+    "mysql": "^2.18.1",
+    "node-ssh": "^11.1.1",
+    "ssh2": "^0.8.9"
+  }
+}
